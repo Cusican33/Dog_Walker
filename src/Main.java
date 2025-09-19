@@ -4,5 +4,7 @@ public class Main
     {
         DogWalkCompany c = new DogWalkCompany();
         System.out.println(c);
+        int hour = c.addDogs();
+        System.out.println(c);
     }
 }
