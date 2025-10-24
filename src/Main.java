@@ -15,7 +15,7 @@ public class Main
         DogWalkCompany[] companies = new DogWalkCompany[1000];
         File f = new File("Companies.txt");
         Scanner s = new Scanner(f);
-        while(s.hasNextLine())
+        while(s.hasNext())
         {
             int[] dogs = new int[24];
             for (int i = 0; i < dogs.length; i++)
